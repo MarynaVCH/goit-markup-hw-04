@@ -374,7 +374,8 @@ padding-top: 94px;
   height: 70px;
 }
 
-.social-list {
+.social-list,
+.customers-item {
   display: flex;
   justify-content: space-between;
 }
@@ -399,6 +400,27 @@ fill: #AFB1B8;
   fill: #ffffff;
   background-color: var(--accent-color);
 }
+
+.customers-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.customers-list-icon {
+  width: 106px;
+  height: 60px;
+}
+
+
 
 /* ========= END SECTION ========= */
 
