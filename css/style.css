@@ -93,6 +93,8 @@ img {
 }
 
 .menu-link {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -116,20 +118,25 @@ img {
   color: var(--accent-color);
 }
 
-.envelope {
-  width: 16px;
-  height: 12px;
+.menu-item {
+  display: flex;
+  align-items: center;
 }
 
-/* .envelope-icon::before {
-  background-image: url(../images/sprite.svg#icon-envelope);
-} */
+.envelope,
+.smartphone {
+margin-right: 10px;
+fill: currentColor;
+}
+
 
 /* =========END HEADER ========= */
 
 /* ========= HERO ========= */
 
 .hero {
+  background-position: center;
+  max-width: 1600px;
   background: var(--main-background);
   background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
@@ -138,6 +145,8 @@ img {
     url(../images/hero/bg.jpg);
   background-size: cover;
   align-items: center;
+  text-align: center;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
   
